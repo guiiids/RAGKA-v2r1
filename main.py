@@ -77,9 +77,9 @@ HTML_TEMPLATE = """
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="/static/js/marked-renderer.js"></script>
-   <script src="/static/js/feedback-integration.js"></script>
-   <script defer src="/static/js/url-decoder.js"></script>
-   <script defer src="/static/js/dynamic-container.js"></script>
+  <script src="/static/js/url-decoder.js"></script>
+  <script src="/static/js/dynamic-container.js"></script>
+  <script src="/static/js/feedback-integration.js"></script>
    <script>
      window.APP_CONFIG = { sasToken: "{{ sas_token }}" };
      console.log("Injected SAS_TOKEN:", window.APP_CONFIG.sasToken);

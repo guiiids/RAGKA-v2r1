@@ -1794,3 +1794,6 @@ if __name__ == "__main__":
         print("\nAll tests passed!")
     else:
         print("\nSome tests failed. Check the logs for details.")
+
+# Backwards compatibility alias
+FlaskRAGAssistant = FlaskRAGAssistantWithHistory
